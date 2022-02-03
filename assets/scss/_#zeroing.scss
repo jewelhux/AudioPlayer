@@ -1,0 +1,51 @@
+/* Обнуление стилей */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  &:hover {
+    color: green;
+  }
+}
+
+img {
+  vertical-align: top;
+}
+
+ul,
+ol,
+li {
+  color: #fff;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  height: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  scroll-behavior: smooth;
+  color: #fff;
+  background-color: black;
+}

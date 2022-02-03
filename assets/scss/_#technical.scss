@@ -1,0 +1,40 @@
+/* Общие и технические классы */
+
+._wrapper {
+  padding: 20px 20px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+._container {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+._btn {
+  font-family: inherit;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 120px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
